@@ -83,7 +83,7 @@ nav {
 }
 
 .aside_wrapper {
-  width : 90%;
+  width : 95%;
   margin : 0px auto;
 }
 
@@ -104,6 +104,7 @@ footer {
   position: fixed;
   bottom : 0;
   width : 100%;
+  z-index : 5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -273,27 +274,34 @@ input[name="submit"] {
 @media screen and (max-width: 980px) {
 
   .container_header {
-    width : 550px;
-    height : 70px;
-    overflow: auto;
-    background-color: #ffffff;
-    margin : 0 auto;
+    width : 465px;
+    height : 58px;
   }
 
   #name {
-    font-size: 23px;
+    font-size: 16px;
     width : 33%;
-    padding : 20px 15px;
+    padding : 25px 15px;
   }
 
   .nav {
-    width : 33%;
+    /*width : 33%;*/
+    padding : 0px;
     /*padding : 0px 1px;*/
   }
 
+  nav {
+    padding : 0px 0px;
+    width : 40%;
+    margin : 17px 0px;
+  }
+
+  a {
+    font-size : 11px;
+  } 
 
   .container_content{
-    width : 550px;
+    width : 465px;
     border : 1px solid black;
   }
 
@@ -305,11 +313,11 @@ input[name="submit"] {
   }
 
   h1 {
-    font-size: 23px; 
+    font-size: 20px; 
   }
 
   h3 {
-    font-size : 17px;
+    font-size : 15px;
   }
 
   .my_pic {
@@ -320,12 +328,13 @@ input[name="submit"] {
   }
 
   aside {
-    width : 35%;
+    width : 40%;
   }
 
   #social_media {
     padding-left : 4px;
   }
+
   .social_media_icons {
     margin : 3px;
   }
@@ -342,10 +351,6 @@ input[name="submit"] {
   #main_container {
     margin-bottom : 70px;
   }
- 
-  a {
-    font-size : 13px;
-  } 
 
   hr {
   color : #cccccc;
@@ -400,11 +405,70 @@ input[name="submit"] {
 }
 
 
-
-
-/*
 @media screen and (max-width: 768px) {
-}
+  .container_header {
+  width : 505px;
+  height : 65px;
+  }
 
-@media screen and (max-width: 640px) {
+  #name {
+  font-size: 16px;
+  width : 33%;
+  padding : 20px 15px;
+  }
+
+  nav {
+    padding : 0px;
+    margin : 21px 0px;
+    width : 40%;
+  }
+
+  a {
+    font-size : 12px;
+  } 
+
+  .container_content{
+    width : 505px;
+    border : 1px solid black;
+  }
+
+  .main_content, .contact_content, .portfolio_content {
+    width : 100%;
+    /*width : 650px;*/
+    /*height : 500px;*/
+    overflow : auto;
+  }
+
+  .my_pic {
+    height : 175px;
+    width : 230px;
+    margin : 0px 20px 10px 0px;
+    display : block;
+  }
+
+  aside {
+    width : 100%;
+    height : 140px;
+    display : block;
+    margin : 20px auto;
+  }
+
+  h3 {
+    text-align : left;
+  }
+ 
+
+  .social_media_icons {
+    width : 10%;
+    margin: 0px 2px 0px 0px;
+  }
+
+  #social_media {
+    padding-left : 0px;
+  }
+
+/*@media screen and (max-width: 640px) {
 }*/
+
+
+}
