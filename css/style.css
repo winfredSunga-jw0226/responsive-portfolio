@@ -1,6 +1,3 @@
-
-
-
 body {
   /*border : 2px dashed black;*/
   margin : 0 auto;
@@ -45,7 +42,8 @@ header {
 }
 
 nav {
-  width : 270px;
+  /*width : 270px;*/
+  width : 36%;
   float : right;
   overflow : auto;
   padding : 25px;
@@ -63,15 +61,18 @@ nav {
 .nav.contact {
   border : 0;
 }
+
 .main_content, .contact_content, .portfolio_content {
   clear : both;
   float : left;
   border : 1px solid #dddddd;
   background-color: #ffffff;
-  width : 650px;
+  width : 70%;
+  /*width : 650px;*/
   /*height : 500px;*/
   overflow : auto;
   padding-bottom : 20px; 
+  border : 1px solid green; /*delete later*/
 }
 
 .main_content_wrapper, .contact_content_wrapper, .portfolio_content_wrapper {
@@ -79,6 +80,30 @@ nav {
   width : 90%;
   padding : 0px ;
   margin : 0px auto;
+}
+
+.aside_wrapper {
+  width : 90%;
+  margin : 0px auto;
+}
+
+aside {
+  border : 1px solid #dddddd;
+  background-color: #ffffff;
+  float : right;
+  width : 25%;
+  overflow : auto;
+  padding-bottom : 20px;
+}
+
+footer {
+  
+  clear : both;
+  /*border : 1px solid black;*/
+  /*width : 960px;*/
+  position: fixed;
+  bottom : 0;
+  width : 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,24 +149,6 @@ p + p {
 #p2 {
   clear : both;
 }
-aside {
-  border : 1px solid #dddddd;
-  background-color: #ffffff;
-  float : right;
-  width : 270px;
-  overflow : auto;
-  padding-bottom : 20px;
-}
-
-footer {
-  
-  clear : both;
-  /*border : 1px solid black;*/
-  width : 960px;
-  position: fixed;
-  bottom : 0;
-
-}
 
 #footer_div1 {
   background-color : #4aaaa5;
@@ -164,17 +171,19 @@ a {
 
 #social_media {
   /*border : 1px solid blue;*/
-  padding : 0px 0px;
+  /*padding : 0px 0px;*/
   margin : 0 auto;
-  width : 70%;
+  width : 100%;
+  padding-left : 1px; 
 }
 
 .social_media_icons {
-  width : 50px;
-  height : 50px;
+ /* width : 50px;
+  height : 50px;*/
+  width : 27%;
+  height : 27%;
   /*border : 1px solid blue;*/
   margin : 5px;
-
 }
 
 #connect {
@@ -221,7 +230,7 @@ input[name="submit"] {
 
 .portfolio_container {
   /*border : 1px solid black;*/
-  position : relative;
+  /*position : relative;*/
   overflow : hidden;
 }
 
@@ -261,3 +270,141 @@ input[name="submit"] {
 
 }
 
+@media screen and (max-width: 980px) {
+
+  .container_header {
+    width : 550px;
+    height : 70px;
+    overflow: auto;
+    background-color: #ffffff;
+    margin : 0 auto;
+  }
+
+  #name {
+    font-size: 23px;
+    width : 33%;
+    padding : 20px 15px;
+  }
+
+  .nav {
+    width : 33%;
+    /*padding : 0px 1px;*/
+  }
+
+
+  .container_content{
+    width : 550px;
+    border : 1px solid black;
+  }
+
+  .main_content, .contact_content, .portfolio_content {
+    width : 55%;
+    /*width : 650px;*/
+    /*height : 500px;*/
+    overflow : auto;
+  }
+
+  h1 {
+    font-size: 23px; 
+  }
+
+  h3 {
+    font-size : 17px;
+  }
+
+  .my_pic {
+    height : 200px;
+    width : 100%;
+    margin : 0px auto 20px auto;
+    display : block;
+  }
+
+  aside {
+    width : 35%;
+  }
+
+  #social_media {
+    padding-left : 4px;
+  }
+  .social_media_icons {
+    margin : 3px;
+  }
+
+  p , form {
+    font-size : 13px;
+  }
+
+  #p1 , #p2 {
+    width : 90%;
+    display : block;
+  }
+
+  #main_container {
+    margin-bottom : 70px;
+  }
+ 
+  a {
+    font-size : 13px;
+  } 
+
+  hr {
+  color : #cccccc;
+  size : 5;
+  margin-bottom : 15px;
+}
+
+.formtext {
+  width : 265px;
+  height : 20px
+}
+
+.messagetext {
+  width : 265px;
+  height : 150px;
+}
+
+input {
+  margin-bottom : 10px;
+} 
+
+input[value] {
+  color : gray;
+}
+
+input[name="submit"] {
+  width : 95px;
+  height : 35px;
+  font-size : 14px;
+  margin : 10px 0px;
+  color : white;
+}
+
+.portfolio_section {
+  height : 350px; 
+}
+
+.portfolio_container {
+  margin : 10px auto;
+}
+
+#portfolio1, #portfolio3, #portfolio5 {
+  width : 95%; 
+  height : 48%;
+}
+
+#portfolio2, #portfolio4 {
+  width : 95%; 
+  height : 48%;
+  top : 170px;
+  right : 6px;
+}
+
+
+
+
+/*
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+}*/
