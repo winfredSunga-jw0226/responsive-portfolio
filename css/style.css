@@ -418,8 +418,10 @@ input[name="submit"] {
 @media screen and (max-width: 768px) {
 
   .container_header {
-  width : 505px;
-  height : 65px;
+  /*width : 505px;
+  height : 65px;*/
+  width : 620px;
+  height : 80px;
   }
 
   #name {
@@ -439,14 +441,12 @@ input[name="submit"] {
   } 
 
   .container_content{
-    width : 505px;
-    border : 1px solid black;
+    /*width : 505px;*/
+    width : 620px;
   }
 
   .main_content {
     width : 100%;
-    /*width : 650px;*/
-    /*height : 500px;*/
     overflow : auto;
   }
 
@@ -455,6 +455,10 @@ input[name="submit"] {
     width : 230px;
     margin : 0px 20px 10px 0px;
     display : block;
+  }
+
+   p , form {
+    font-size : 15px;
   }
 
   aside {
@@ -585,6 +589,27 @@ portfolio_section {
 
   .nav {
     width : 33%;
+  }
+
+  .container_content{
+    width : 270px;
+    border : 1px solid black;
+  }
+
+  h1 {
+    font-size : 15px;
+  }
+
+  .my_pic {
+    height : 185px;
+    width : 230px;
+    margin : 0px;
+    display : block;
+    margin-bottom : 10px;
+  }
+
+  p , form {
+    font-size : 10px;
   }
 
 }
