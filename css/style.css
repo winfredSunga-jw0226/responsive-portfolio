@@ -483,6 +483,80 @@ input[name="submit"] {
     width : 100%;
   }
 
+
+/*.  DEF
+portfolio_section {
+  border-top : 1px solid black;
+  border-right : 1px solid black;
+  border-left : 1px solid black;
+  width : 100%;
+  position : relative;
+}
+
+--980 style
+.portfolio_section {
+    height : 350px; 
+  }
+
+
+  .portfolio_container {
+    margin : 10px auto;
+    overflow : hidden;
+  }
+
+  #portfolio1, #portfolio3, #portfolio5 {
+  width : 45%;
+  position : relative;
+  /*position : absolute;
+  top : 0px;
+  left : 0px;
+
+  --980
+  width : 95%;
+  height : 48%;
+}
+
+--def
+#portfolio2, #portfolio4 {
+  width : 45%;
+  position : absolute;
+  top : 0px;
+  right : 0px;
+}
+
+--980
+  #portfolio2, #portfolio4 {
+    width : 95%; 
+    height : 48%;
+    top : 170px;
+    right : 6px;
+  }
+*/
+
+  .portfolio_section {
+    height : 150px; 
+    /*border : 1px solid black;*/
+  }
+
+  .portfolio_container {
+    margin : 5px auto;
+  }
+
+  #portfolio1, #portfolio3, #portfolio5 {
+    width : 47%;
+    height : 140px;
+    position : absolute;
+    top : 0;
+    left : 2px;
+  }
+
+  #portfolio2, #portfolio4 {
+    width : 47%;
+    height : 140px;
+    top : 0;
+    right : 2px;
+  }
+
   /*input {
     margin-bottom : 10px;
   } 
