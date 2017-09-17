@@ -275,14 +275,14 @@ input[name="submit"] {
 @media screen and (max-width: 980px) {
 
   .container_header {
-    width : 535px;
-    height : 65px;
+    width : 730px;
+    height : 90px;
   }
 
   #name {
-    font-size: 16px;
+    font-size: 22px;
     width : 33%;
-    padding : 25px 15px;
+    padding : 30px 15px;
   }
 
   .nav {
@@ -294,46 +294,54 @@ input[name="submit"] {
   nav {
     padding : 0px 0px;
     width : 40%;
-    margin : 17px 0px;
+    margin : 32px 0px;
   }
 
   a {
-    font-size : 11px;
+    font-size : 18px;
   } 
  
   .container_content {
-    width : 530px;
+    width : 730px;
     /*border : 1px solid black;*/
   }
 
   .main_content {
-    width : 55%;
+    width : 60%;
     /*width : 650px;*/
     /*height : 500px;*/
     overflow : auto;
   }
 
+  .main_content_wrapper {
+    width : 85%;
+  }
+
   h1 {
-    font-size: 20px; 
+    font-size: 25px; 
   }
 
   h3 {
-    font-size : 15px;
+    font-size : 20px;
   }
 
   .my_pic {
-    height : 200px;
+    height : 280px;
     width : 100%;
-    margin : 0px 15px 20px 0px;
+    margin : 0px 0px 20px 0px;
     display : block;
   }
 
   aside {
-    width : 40%;
+    width : 35%;
+  }
+
+  .aside_wrapper {
+    width : 85%;
   }
 
   #social_media {
-    padding-left : 4px;
+    padding-left : 6px;
   }
 
   .social_media_icons {
@@ -341,12 +349,7 @@ input[name="submit"] {
   }
 
   p , form {
-    font-size : 13px;
-  }
-
-  #p1 , #p2 {
-    width : 100%;
-    display : block;
+    font-size : 17px;
   }
 
   #main_container {
@@ -360,12 +363,12 @@ input[name="submit"] {
 }
 
   .formtext {
-    width : 250px;
+    width : 100%;
     height : 20px
   }
 
   .messagetext {
-    width : 250px;
+    width : 100%;
     height : 150px;
   }
 
@@ -557,20 +560,12 @@ portfolio_section {
     right : 2px;
   }
 
-  /*input {
-    margin-bottom : 10px;
-  } 
 
+@media screen and (max-width: 640px) {
 
-  input[name="submit"] {
-    width : 95px;
-    height : 35px;
-    font-size : 14px;
-    margin : 10px 0px;
-    color : white;
-  }*/
-
-/*@media screen and (max-width: 640px) {
-}*/
+  .container_header {
+  width : 292px;
+  height : 73px;
+  }
 
 }
