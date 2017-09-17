@@ -163,6 +163,7 @@ p + p {
   color : #cccccc;
   text-align : center;
   padding : 20px 0px;
+  margin : 0px;
 }
 
 a {
@@ -299,8 +300,8 @@ input[name="submit"] {
   a {
     font-size : 11px;
   } 
-
-  .container_content{
+ 
+  .container_content {
     width : 465px;
     border : 1px solid black;
   }
@@ -321,9 +322,9 @@ input[name="submit"] {
   }
 
   .my_pic {
-    height : 200px;
-    width : 100%;
-    margin : 0px auto 20px auto;
+    height : 170px;
+    width : 225px;
+    margin : 0px 3px 20px 3px;
     display : block;
   }
 
@@ -358,54 +359,64 @@ input[name="submit"] {
   margin-bottom : 15px;
 }
 
-.formtext {
-  width : 265px;
-  height : 20px
+  .formtext {
+    width : 265px;
+    height : 20px
+  }
+
+  .messagetext {
+    width : 265px;
+    height : 150px;
+  }
+
+  input {
+    margin-bottom : 10px;
+  } 
+
+  input[value] {
+    color : gray;
+  }
+
+  input[name="submit"] {
+    width : 95px;
+    height : 35px;
+    font-size : 14px;
+    margin : 10px 0px;
+    color : white;
+  }
+
+  .portfolio_section {
+    height : 350px; 
+  }
+
+  .portfolio_container {
+    margin : 10px auto;
+  }
+
+  #portfolio1, #portfolio3, #portfolio5 {
+    width : 95%; 
+    height : 48%;
+  }
+
+  #portfolio2, #portfolio4 {
+    width : 95%; 
+    height : 48%;
+    top : 170px;
+    right : 6px;
+  }
+
+  footer {
+    height : 67px;
+  }
+
+  #footer_div1 {
+    height : 6px;
+  }
+
 }
-
-.messagetext {
-  width : 265px;
-  height : 150px;
-}
-
-input {
-  margin-bottom : 10px;
-} 
-
-input[value] {
-  color : gray;
-}
-
-input[name="submit"] {
-  width : 95px;
-  height : 35px;
-  font-size : 14px;
-  margin : 10px 0px;
-  color : white;
-}
-
-.portfolio_section {
-  height : 350px; 
-}
-
-.portfolio_container {
-  margin : 10px auto;
-}
-
-#portfolio1, #portfolio3, #portfolio5 {
-  width : 95%; 
-  height : 48%;
-}
-
-#portfolio2, #portfolio4 {
-  width : 95%; 
-  height : 48%;
-  top : 170px;
-  right : 6px;
-}
-
 
 @media screen and (max-width: 768px) {
+
   .container_header {
   width : 505px;
   height : 65px;
@@ -469,6 +480,5 @@ input[name="submit"] {
 
 /*@media screen and (max-width: 640px) {
 }*/
-
 
 }
