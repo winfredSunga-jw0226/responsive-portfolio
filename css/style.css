@@ -12,7 +12,7 @@ header {
   background-color: #ffffff;
 }
 
-.container_header{
+.container_header { 
   /*border : 2px solid #cccccc;*/
   width : 960px;
   overflow: auto;
@@ -20,7 +20,7 @@ header {
   margin : 0 auto;
 }
 
-.container_content{
+.container_content {
   /*border : 2px dashed #cccccc;*/
   width : 960px;
   overflow: auto;
@@ -62,7 +62,7 @@ nav {
   border : 0;
 }
 
-.main_content, .contact_content, .portfolio_content {
+.main_content {
   clear : both;
   float : left;
   border : 1px solid #dddddd;
@@ -72,10 +72,10 @@ nav {
   /*height : 500px;*/
   overflow : auto;
   padding-bottom : 20px; 
-  border : 1px solid green; /*delete later*/
+  /*border : 1px solid green; */
 }
 
-.main_content_wrapper, .contact_content_wrapper, .portfolio_content_wrapper {
+.main_content_wrapper {
   /*border : 1px dashed blue;*/
   width : 90%;
   padding : 0px ;
@@ -275,8 +275,8 @@ input[name="submit"] {
 @media screen and (max-width: 980px) {
 
   .container_header {
-    width : 465px;
-    height : 58px;
+    width : 535px;
+    height : 65px;
   }
 
   #name {
@@ -302,11 +302,11 @@ input[name="submit"] {
   } 
  
   .container_content {
-    width : 465px;
-    border : 1px solid black;
+    width : 530px;
+    /*border : 1px solid black;*/
   }
 
-  .main_content, .contact_content, .portfolio_content {
+  .main_content {
     width : 55%;
     /*width : 650px;*/
     /*height : 500px;*/
@@ -322,9 +322,9 @@ input[name="submit"] {
   }
 
   .my_pic {
-    height : 170px;
-    width : 225px;
-    margin : 0px 3px 20px 3px;
+    height : 200px;
+    width : 100%;
+    margin : 0px 15px 20px 0px;
     display : block;
   }
 
@@ -345,7 +345,7 @@ input[name="submit"] {
   }
 
   #p1 , #p2 {
-    width : 90%;
+    width : 100%;
     display : block;
   }
 
@@ -360,12 +360,12 @@ input[name="submit"] {
 }
 
   .formtext {
-    width : 265px;
+    width : 250px;
     height : 20px
   }
 
   .messagetext {
-    width : 265px;
+    width : 250px;
     height : 150px;
   }
 
@@ -373,9 +373,6 @@ input[name="submit"] {
     margin-bottom : 10px;
   } 
 
-  input[value] {
-    color : gray;
-  }
 
   input[name="submit"] {
     width : 95px;
@@ -443,7 +440,7 @@ input[name="submit"] {
     border : 1px solid black;
   }
 
-  .main_content, .contact_content, .portfolio_content {
+  .main_content {
     width : 100%;
     /*width : 650px;*/
     /*height : 500px;*/
@@ -477,6 +474,27 @@ input[name="submit"] {
   #social_media {
     padding-left : 0px;
   }
+
+  .formtext {
+    width : 100%;
+  }
+
+  .messagetext {
+    width : 100%;
+  }
+
+  /*input {
+    margin-bottom : 10px;
+  } 
+
+
+  input[name="submit"] {
+    width : 95px;
+    height : 35px;
+    font-size : 14px;
+    margin : 10px 0px;
+    color : white;
+  }*/
 
 /*@media screen and (max-width: 640px) {
 }*/
