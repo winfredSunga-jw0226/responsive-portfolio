@@ -634,4 +634,10 @@ portfolio_section {
     margin : 15px 0px 15px 0px;
   }
 
+  input[name="submit"] {
+    width : 65px;
+    height : 23px;
+    font-size : 10px;
+}
+
 }
