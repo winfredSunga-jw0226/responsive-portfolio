@@ -593,13 +593,15 @@ portfolio_section {
 
   .container_content{
     width : 270px;
-    border : 1px solid black;
   }
 
   h1 {
     font-size : 15px;
   }
 
+  h3 {
+    font-size : 12px;
+  }
   .my_pic {
     height : 185px;
     width : 230px;
@@ -610,6 +612,26 @@ portfolio_section {
 
   p , form {
     font-size : 10px;
+  }
+
+  #p1 , #p2 {
+    font-size : 10px;
+    line-height : 2; 
+  }
+
+  aside {
+    height : 100px;
+    margin : 10px auto;
+    padding-bottom : 10px ;
+  }
+
+  .social_media_icons {
+    width : 15%;
+    margin: 0px 2px 0px 0px;
+  }
+
+  #connect {
+    margin : 15px 0px 15px 0px;
   }
 
 }
