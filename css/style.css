@@ -46,16 +46,21 @@ nav {
   width : 36%;
   float : right;
   overflow : auto;
-  padding : 25px;
+  padding : 31px 0px;
+  margin-right : -70px;
 }
 
 .nav {
   float : left;
-  border-right : 1px solid #cccccc;
-  width : 32%;
+  /*border-right : 1px solid #cccccc;*/
+  width : 28%;
   padding : 0px 0px;
   margin : 0px auto;
   text-align: center; 
+}
+
+a {
+  white-space: normal;
 }
 
 .nav.contact {
@@ -285,20 +290,14 @@ input[name="submit"] {
     padding : 30px 15px;
   }
 
-  .nav {
-    /*width : 33%;*/
-    padding : 0px;
-    /*padding : 0px 1px;*/
-  }
-
   nav {
     padding : 0px 0px;
-    width : 40%;
-    margin : 32px 0px;
+    width : 33%;
+    margin : 32px -45px 0px 0px;
   }
 
   a {
-    font-size : 18px;
+    font-size : 13px;
   } 
  
   .container_content {
@@ -427,12 +426,12 @@ input[name="submit"] {
   #name {
   font-size: 16px;
   width : 33%;
-  padding : 20px 15px;
+  padding : 30px 15px;
   }
 
   nav {
     padding : 0px;
-    margin : 21px 0px;
+    margin : 30px -50px 30px 0px;
     width : 40%;
   }
 
@@ -567,9 +566,9 @@ portfolio_section {
 
 @media screen and (max-width: 640px) {
 
-  .container_header {
-  width : 100%;
-  height : 73px;
+  .container_header {  
+    width : 100%;  
+    height : 73px;
   }
 
   #name {
@@ -583,8 +582,9 @@ portfolio_section {
   nav {
     height : 40%;
     display : block;
-    margin : 2px;
-    width : 100%;
+    margin : 0px 185px;
+    width : 270px;
+    padding : 0px auto;
   }
 
   .nav {
@@ -621,7 +621,7 @@ portfolio_section {
 
   aside {
     height : 100px;
-    margin : 10px auto;
+    margin : 20px auto;
     padding-bottom : 10px ;
   }
 
@@ -638,6 +638,21 @@ portfolio_section {
     width : 65px;
     height : 23px;
     font-size : 10px;
-}
+  }
+
+  footer {
+    height : 48px;
+  }
+
+  #footer_div1 {
+    height : 7px;
+  }
+
+  #footer_div2 {
+    font-size : 6px;
+  }
+
+
+
 
 }
