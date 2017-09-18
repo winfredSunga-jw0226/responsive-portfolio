@@ -388,13 +388,22 @@ input[name="submit"] {
     height : 350px; 
   }
 
+   .portfolio_section.three {
+    height : 175px;
+  }
+
   .portfolio_container {
     margin : 10px auto;
   }
 
-  #portfolio1, #portfolio3, #portfolio5 {
+  #portfolio1, #portfolio3 {
     width : 95%; 
     height : 48%;
+  }
+
+  #portfolio5 {
+    width : 95%; 
+    height : 96%;
   }
 
   #portfolio2, #portfolio4 {
@@ -581,10 +590,16 @@ portfolio_section {
 
   nav {
     height : 40%;
-    display : block;
-    margin : 0px 185px;
+    float : unset;
+    margin : 0px auto;
     width : 270px;
     padding : 0px auto;
+
+  }
+
+  ul {
+    width : 70%;
+    margin : auto;
   }
 
   .nav {
@@ -652,7 +667,37 @@ portfolio_section {
     font-size : 6px;
   }
 
+  .portfolio_section {
+    width : 100%;
+    height : 325px;
+    position : relative;
+
+  }
+ 
+  .portfolio_section.three {
+    height : 150px;
+  }
 
 
+  #portfolio1, #portfolio3, #portfolio5 {
+    width : 100%;
+    height : 150px;
+    position : relative;
+    top : 0px;
+    right : 1px;
+  }
+
+  #portfolio2, #portfolio4 {
+    width : 100%;
+    height : 150px;
+    position : absolute;
+    top : 165px;
+    left : 1px;
+    margin : 0px;
+  }
+
+  .portfolio_img {
+    height : 100%;
+  }
 
 }
